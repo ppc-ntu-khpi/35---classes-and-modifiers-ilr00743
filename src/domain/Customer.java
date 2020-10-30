@@ -4,7 +4,13 @@ public class Customer {
     private int ID;
     private boolean isNew;
     private double total;
-
+    
+    public Customer(){
+        ID = 1;
+        isNew = true;
+        total = 1000;
+    }
+    
     public int getID() {
         return ID;
     }
@@ -34,11 +40,4 @@ public class Customer {
         System.out.println("Is new customer: " + isNew);
         System.out.println("Total purchases are: " + total);
     }
-    
-    public Customer(){
-        ID = 1;
-        isNew = true;
-        total = 1000;
-    }
-    
 }
