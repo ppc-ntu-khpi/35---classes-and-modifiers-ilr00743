@@ -33,7 +33,7 @@ public class CustomerTest {
     }
 }
 ```
-
+**Результат роботи програми**
 ![](https://github.com/ppc-ntu-khpi/35---classes-and-modifiers-ilr00743/blob/main/Solution/done.png "done.png")
 
 ## Завдання 2 (Advanced)
@@ -104,5 +104,5 @@ public class CustomerTest {
     }
 }
 ```
-
+**Результат роботи програми**
 ![](https://github.com/ppc-ntu-khpi/35---classes-and-modifiers-ilr00743/blob/main/Solution/advanced.png "advanced.png")
