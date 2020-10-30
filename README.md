@@ -19,4 +19,4 @@ public class Customer {
 }
 ```
 
-![done.png]()
+![](https://github.com/ppc-ntu-khpi/35---classes-and-modifiers-ilr00743/blob/main/Solution/done.png "done.png")
