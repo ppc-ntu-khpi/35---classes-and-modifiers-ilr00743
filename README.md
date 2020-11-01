@@ -47,7 +47,7 @@ public class Customer {
     private int ID;
     private boolean isNew;
     private double total;
-     
+    
     public Customer(){
         ID = 1;
         isNew = true;
@@ -59,7 +59,10 @@ public class Customer {
     }
 
     public void setID(int newID) {
-        ID = newID;
+        if(newID > 0)
+            ID = newID;
+        else
+            ID = 0;
     }
 
     public boolean getStatus() {
@@ -75,7 +78,10 @@ public class Customer {
     }
 
     public void setTotal(double newTotal) {
-        total = newTotal;
+        if(newTotal > 0)
+            total = newTotal;
+        else
+            total = 0;
     }
     
     public void displayCustomerInfo(){
@@ -84,6 +90,7 @@ public class Customer {
         System.out.println("Total purchases are: " + total);
     }
 }
+
 ```
 
 **CustomerTest.java**
